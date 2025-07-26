@@ -1,0 +1,61 @@
+.view-tasks-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f4f8fc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.view-tasks-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border-left: 5px solid #3498db;
+  transition: background-color 0.3s;
+}
+
+.task-item:hover {
+  background-color: #eef6fc;
+}
+
+.task-text {
+  flex-grow: 1;
+  font-size: 16px;
+  color: #34495e;
+}
+
+.task-buttons button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.task-buttons button:hover {
+  opacity: 0.9;
+}
+
+.task-buttons .done-btn {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.task-buttons .delete-btn {
+  background-color: #e74c3c;
+  color: white;
+}
