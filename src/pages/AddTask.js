@@ -10,7 +10,7 @@ function AddTask({ addTask }) {
 
     // Add the task via parent callback
     addTask({ text: taskText });
-    setTaskText('');
+    setTaskText('');   
   };
 
   return (
